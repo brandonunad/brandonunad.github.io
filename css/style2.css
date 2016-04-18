@@ -1,0 +1,178 @@
+/*font-family: 'Candal', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;*/
+
+#contenidos{
+	/*Ancho de pagina*/
+	width: 1000px;
+	/*Alto de pagina*/
+	height: auto;
+	/*Margen*/
+	margin: auto;
+	/*Posicion*/
+	position: relative;
+	background: transparent;
+}
+
+/*ETIQUETAS*/
+body {
+	/*Imagen de fondo*/
+	background: white;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/*Fuentes*/
+h1{
+	font-family: 'Candal', sans-serif;
+	color: blueviolet;
+	margin-left: 10px;
+	font-size: 60px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Bree Serif', serif;
+	color: blueviolet;
+	margin-left: 10px;
+	font-size: 28px;
+	text-align: left;
+}
+
+h3{
+	font-family: 'Pacifico', cursive;
+	color: darkred;
+	margin-left: 10px;
+	font-size: 24px;
+	text-align: left;
+}
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	color: White;
+	font-size: 17px;
+	text-align: center;
+}
+
+h5{
+	font-family: 'Slabo 27px', serif;
+	color: black;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: left;
+}
+
+h6{
+	font-family: 'Slabo 27px', serif;
+	color: black;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: left;
+}
+
+
+header{
+	width: 1000px;
+	height: 160px;
+	background: PaleGoldenrod; 
+}
+
+nav{
+	width:1000px;
+	height: 60px;
+	background: PaleGoldenrod;
+}
+
+ul{
+	margin: auto;
+	padding-top: 10px;
+}
+/*botones*/
+li{
+	float: left;
+	/*elementos como tipo menu y no como tipo lista*/
+	list-style-type: none;
+	padding: 5px;
+	background: royalblue;
+	margin: 3px;
+	border-style: inset;
+	border-color: blueviolet;
+	border-radius: 10px;
+}
+
+section{
+	width: 700px;
+	background: ghostwhite;
+	height: 800px;
+	float: left;
+	margin-top: 20px;
+}
+
+aside{
+	width: 280px;
+	background: transparent;
+	height: 800;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+footer{
+	width: 1000px;
+	height: 125px;
+	background: royalblue;
+	float: left;
+	margin-top: 30px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: blueviolet;
+	margin-bottom: 20px;
+}
+
+menu{
+	float: left;
+	/*elementos como tipo menu y no como tipo lista*/
+	list-style-type: none;
+	padding: 30px;
+	background: transparent;
+	margin: 20px;
+	border-style: none;
+	border-color: transparent;
+	border-radius: 10px;
+}
+
+/*Texto*/
+p{
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 20px;
+	padding: 10px;
+	text-align: justify;
+}
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+/*botones*/
+.menu:link{padding: 7px;color: white;text-decoration: none;}
+.menu:visited{padding: 7px;color: white;text-decoration: none;}
+.menu:hover{padding: 7px;color: white;text-decoration: none; text-shadow: 0 0 5px white;}
+.menu:active{padding: 7px;color: white;text-decoration: none;}
+
+
+.section:link{padding: 7px;color: blue;text-decoration: none;}
+.section:visited{padding: 7px;color: blue;text-decoration: none;}
+.section:hover{padding: 7px;color: darkblue;text-decoration: none; text-shadow: 0 0 5px white;}
+.section:active{padding: 7px;color: blue;text-decoration: none;}
+
+/*SEUDO CLASES*/
+
+li:hover {
+	background: darkred;
+	box-shadow: 0 0 8px white inset;
+}
+
+
